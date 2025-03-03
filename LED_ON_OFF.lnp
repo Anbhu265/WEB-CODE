@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main2.o" --strict --scatter "LED_ON_OFF.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_ON_OFF.map" -o "LED_ON_OFF.axf"

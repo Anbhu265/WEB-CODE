@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'LED_ON_OFF.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main2.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main2.o" --strict --scatter "LED_ON_OFF.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_ON_OFF.map" -o "LED_ON_OFF.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LED_ON_OFF.axf'
+### ADS-LD Command File: 'LED_ON_OFF.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LED_ON_OFF.lnp', Handle=0x00000390
+### Writing '.lnp' file
+### ADS-LD Command file 'LED_ON_OFF.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

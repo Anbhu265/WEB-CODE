@@ -1,0 +1,8 @@
+Dependencies for Project 'LED_ON_OFF', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main2.c)(0x67AEDE41)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "main2.o" --omf_browse "main2.crf" --depend "main2.d")
+I (C:\KeilARM\ARM\INC\Philips\LPC21XX.H)(0x4BB1C2C8)
+I (C:\KeilARM\ARM\RV31\INC\string.h)(0x4BA15EC2)
+I (uart1.h)(0x6772826C)
+I (Lcd.h)(0x677282EC)
+I (variable.h)(0x67728D20)

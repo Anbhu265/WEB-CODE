@@ -1,0 +1,155 @@
+Build target 'Target 1'
+assembling Startup.s...
+compiling main2.c...
+uart0.h(55): warning:  #223-D: function "sprintf" declared implicitly
+uart0.h:       sprintf(buffer, "%u", num); // Convert number to string
+uart0.h:       ^
+uart0.h(1): error:  #268: declaration may not appear after executable statement in block
+uart0.h:   void uart0_config(void)
+uart0.h:   ^
+uart0.h(2): error:  #65: expected a ";"
+uart0.h:   {
+uart0.h:   ^
+main2.c(255): warning:  #12-D: parsing restarts here after previous syntax error
+main2.c:   unsigned char RX_Buffer[BUFFER_SIZE];
+main2.c:                                       ^
+main2.c(256): error:  #268: declaration may not appear after executable statement in block
+main2.c:   unsigned int RX_INDEX = 0;
+main2.c:   ^
+main2.c(258): error:  #268: declaration may not appear after executable statement in block
+main2.c:   void process_command(char *buffer);
+main2.c:   ^
+main2.c(260): error:  #268: declaration may not appear after executable statement in block
+main2.c:   void ESP_Initial(void) {
+main2.c:   ^
+main2.c(260): error:  #65: expected a ";"
+main2.c:   void ESP_Initial(void) {
+main2.c:                          ^
+main2.c(336): warning:  #12-D: parsing restarts here after previous syntax error
+main2.c:   }
+main2.c:   ^
+main2.c(256): warning:  #177-D: variable "RX_INDEX" was declared but never referenced
+main2.c:   unsigned int RX_INDEX = 0;
+main2.c:                ^
+main2.c(337): error: At end of source:  #67: expected a "}"
+main2.c: main2.c: 4 warnings, 7 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling main2.c...
+uart0.h(55): warning:  #223-D: function "sprintf" declared implicitly
+uart0.h:       sprintf(buffer, "%u", num); // Convert number to string
+uart0.h:       ^
+uart0.h(1): error:  #268: declaration may not appear after executable statement in block
+uart0.h:   void uart0_config(void)
+uart0.h:   ^
+uart0.h(2): error:  #65: expected a ";"
+uart0.h:   {
+uart0.h:   ^
+main2.c(255): warning:  #12-D: parsing restarts here after previous syntax error
+main2.c:   unsigned char RX_Buffer[BUFFER_SIZE];
+main2.c:                                       ^
+main2.c(256): error:  #268: declaration may not appear after executable statement in block
+main2.c:   unsigned int RX_INDEX = 0;
+main2.c:   ^
+main2.c(258): error:  #268: declaration may not appear after executable statement in block
+main2.c:   void process_command(char *buffer);
+main2.c:   ^
+main2.c(260): error:  #268: declaration may not appear after executable statement in block
+main2.c:   void ESP_Initial(void) {
+main2.c:   ^
+main2.c(260): error:  #65: expected a ";"
+main2.c:   void ESP_Initial(void) {
+main2.c:                          ^
+main2.c(336): warning:  #12-D: parsing restarts here after previous syntax error
+main2.c:   }
+main2.c:   ^
+main2.c(256): warning:  #177-D: variable "RX_INDEX" was declared but never referenced
+main2.c:   unsigned int RX_INDEX = 0;
+main2.c:                ^
+main2.c(337): error: At end of source:  #67: expected a "}"
+main2.c: main2.c: 4 warnings, 7 errors
+Target not created
+Build target 'Target 1'
+compiling main2.c...
+uart0.h(1): error:  #268: declaration may not appear after executable statement in block
+uart0.h:   void uart0_config(void)
+uart0.h:   ^
+uart0.h(2): error:  #65: expected a ";"
+uart0.h:   {
+uart0.h:   ^
+main2.c(255): warning:  #12-D: parsing restarts here after previous syntax error
+main2.c:   unsigned char RX_Buffer[BUFFER_SIZE];
+main2.c:                                       ^
+main2.c(256): error:  #268: declaration may not appear after executable statement in block
+main2.c:   unsigned int RX_INDEX = 0;
+main2.c:   ^
+main2.c(258): error:  #268: declaration may not appear after executable statement in block
+main2.c:   void process_command(char *buffer);
+main2.c:   ^
+main2.c(260): error:  #268: declaration may not appear after executable statement in block
+main2.c:   void ESP_Initial(void) {
+main2.c:   ^
+main2.c(260): error:  #65: expected a ";"
+main2.c:   void ESP_Initial(void) {
+main2.c:                          ^
+main2.c(336): warning:  #12-D: parsing restarts here after previous syntax error
+main2.c:   }
+main2.c:   ^
+main2.c(256): warning:  #177-D: variable "RX_INDEX" was declared but never referenced
+main2.c:   unsigned int RX_INDEX = 0;
+main2.c:                ^
+main2.c(337): error: At end of source:  #67: expected a "}"
+main2.c: main2.c: 3 warnings, 7 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling main2.c...
+uart0.h(1): error:  #268: declaration may not appear after executable statement in block
+uart0.h:   void uart0_config(void)
+uart0.h:   ^
+uart0.h(2): error:  #65: expected a ";"
+uart0.h:   {
+uart0.h:   ^
+main2.c(255): warning:  #12-D: parsing restarts here after previous syntax error
+main2.c:   unsigned char RX_Buffer[BUFFER_SIZE];
+main2.c:                                       ^
+main2.c(256): error:  #268: declaration may not appear after executable statement in block
+main2.c:   unsigned int RX_INDEX = 0;
+main2.c:   ^
+main2.c(258): error:  #268: declaration may not appear after executable statement in block
+main2.c:   void process_command(char *buffer);
+main2.c:   ^
+main2.c(260): error:  #268: declaration may not appear after executable statement in block
+main2.c:   void ESP_Initial(void) {
+main2.c:   ^
+main2.c(260): error:  #65: expected a ";"
+main2.c:   void ESP_Initial(void) {
+main2.c:                          ^
+main2.c(336): warning:  #12-D: parsing restarts here after previous syntax error
+main2.c:   }
+main2.c:   ^
+main2.c(256): warning:  #177-D: variable "RX_INDEX" was declared but never referenced
+main2.c:   unsigned int RX_INDEX = 0;
+main2.c:                ^
+main2.c(337): error: At end of source:  #67: expected a "}"
+main2.c: main2.c: 3 warnings, 7 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling main2.c...
+main2.c(336): warning:  #1-D: last line of file ends without a newline
+main2.c:      */
+main2.c:        ^
+main2.c: main2.c: 1 warning, 0 errors
+linking...
+Program Size: Code=5344 RO-data=32 RW-data=4 ZI-data=1460  
+FromELF: creating hex file...
+"LED_ON_OFF.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling main2.c...
+linking...
+Program Size: Code=5344 RO-data=32 RW-data=4 ZI-data=1460  
+FromELF: creating hex file...
+"LED_ON_OFF.axf" - 0 Error(s), 0 Warning(s).
